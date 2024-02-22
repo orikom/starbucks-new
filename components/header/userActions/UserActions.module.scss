@@ -1,0 +1,45 @@
+
+.userActions{
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: 
+  "signin join"
+  "location location";
+  /* width: 100%; */
+  width: fit-content;
+  margin-top: 1.7rem;
+  
+  @media (min-width: 800px) {
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+    margin-top: 0;
+  }
+}
+
+.findStoreContainer{
+    display: flex;  
+    margin-right: 2.5rem; 
+    grid-area: location;
+    margin-top: 1rem;
+    @media (min-width: 800px) {
+      margin-top: 0rem;
+
+    }
+}
+
+.locationIcon{
+  font-size: 1.4rem;
+  margin-right: .5rem;
+}
+
+.signInBtnWrapper{
+  grid-area: signin;
+}
+
+.joinNowBtnWrapper{
+  grid-area: join;
+}
+

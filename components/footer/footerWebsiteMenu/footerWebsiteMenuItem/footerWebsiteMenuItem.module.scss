@@ -1,0 +1,59 @@
+.websiteMenuItem{
+  @media (min-width: 1025px){
+    // width: 20%;
+    max-width: 190px;
+    margin-left: 2rem;
+  }
+}
+
+.heading{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 1rem;
+  padding: 0.5rem 0;
+}
+
+.heading:hover{
+  cursor: pointer;
+}
+
+.headingText{
+  font-size: 16px;
+}
+
+.caretIcon{
+  font-size: 1.3rem;
+  transition: transform 0.2s ease-out;
+  @media (min-width: 1025px){
+    display: none;
+  }
+}
+.caretFlipped{
+  transform: rotate(180deg);
+}
+
+.links{
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  
+  @media (min-width: 1025px){
+    max-height: none;
+    overflow: visible;
+  }
+}
+
+.linksExtended{
+  max-height: 500px;
+}
+
+.link{
+  color: rgba(0,0,0,.58);
+  font-size: 14px;
+  margin: 0 0 0.5rem;
+  padding: 0.5rem 0;
+
+  &:hover{
+    cursor: pointer;
+  }
+}

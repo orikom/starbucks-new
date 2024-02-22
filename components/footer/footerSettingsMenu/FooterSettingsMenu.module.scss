@@ -1,0 +1,41 @@
+.settingsMenu{
+  display: flex;
+  flex-direction: column;
+  @media (min-width: 1025px) {
+    flex-direction: row;
+    // justify-content: space-evenly;
+  }
+}
+
+.linkWrapper{
+  display: flex;
+  padding: 0.5rem 0;
+  margin-bottom: 0.25rem;
+
+  &:hover{
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+
+
+  @media (min-width: 1025px) {
+    .link:nth-child(1){
+      padding-right: 1rem;
+    }
+  
+    .link:not(:first-child){
+      padding: 0 1rem;
+    }
+  }
+
+
+  .separator{
+    display: none;
+
+    @media (min-width: 1025px) {
+      display: block;
+      padding: 0 1rem;
+    }
+  }
+}

@@ -1,0 +1,16 @@
+
+.btn{
+  padding: 7px 16px;
+  border-radius: 25px;
+  font-weight: 600;
+  font-size: .85rem;
+  @media (min-width: 800px) {
+    margin-left: 1rem;
+  }
+}
+
+.btn:hover{
+  cursor: pointer;
+}
+
+

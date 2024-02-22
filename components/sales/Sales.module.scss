@@ -1,0 +1,29 @@
+.salesSection{
+  @media (min-width: 750px) {
+    width: 50%;
+    max-width: 650px;
+    margin: auto;
+  }
+}
+
+.textWrapper{
+  padding: 2rem 1rem;
+}
+
+.paragraph{
+  text-align: center;
+  font-size: 13px;
+  line-height: 1.8;
+  @media (min-width: 750px) {
+    font-size: 14px;
+  }
+}
+
+.inlineLink{
+  text-decoration: underline;
+}
+
+.inlineLink:hover{
+  text-decoration: none;
+  cursor: pointer;
+}

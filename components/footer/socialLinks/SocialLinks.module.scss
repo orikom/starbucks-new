@@ -1,0 +1,19 @@
+.socialLinksContainer{
+  display: flex;
+  margin: 1.8rem 0;
+}
+
+.socialLink{
+  display: flex;
+  width: 1.8rem;
+  height: 1.8rem;
+  margin-right: .2rem;
+  box-sizing: content-box;
+  padding: 0.5rem;
+  border-radius: 50%;
+  transition: all 0.2s;
+  &:hover{
+    background-color: #e8e8e8;  
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,17 @@
+.footer{
+  padding: 1.5rem;
+  border-top: 1px solid #ccc;
+}
+
+.seperator{
+  margin: 1rem auto;
+}
+
+.trademark{
+  padding: 1rem 0;
+  color: rgba(0, 0, 0, 0.58);
+  font-size: 13px;
+  @media (min-width: 1025px) {
+    font-size: 14px;
+  }
+}
